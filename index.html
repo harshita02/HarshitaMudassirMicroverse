@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey-Form</title>k;iyj[]
+	s34667i
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+<center>
+	<h1 id="title">	freeCodeCamp Survey Form	</h1>
+	<br>
+	<p id ="description">Thank you for taking the time to help us improve the platform</p>
+	<form id="survey-form">
+		<label id="name-label">Name</label>
+		<br>
+		<input type="text" id="name" placeholder="Enter Your Name" required><br><br>
+		<label id="email-label">Email</label>
+		<br>
+		<input type="email" id="email" pattern=".+@globex\.com" placeholder="Enter Your Email" required><br><br>
+		<label id="number-label" >Age</label>
+		<input type="number" id="number"   min="0" max="100" placeholder="Age"><br><br>
+			<label id="role">Which option best describes your current role?</label><br>
+		<select name="roles" id="dropdown">
+  <option value="Software Engineer">Software Engineer</option>
+  <option value="Data Science">Data Science</option>
+</select>
+<br>
+<br>
+<label>What is your favorite feature of freeCodeCamp?<label>
+	<br>
+<input type="radio" id="html" name="fav_language" value="HTML">
+<label for="html">HTML</label><br>
+<input type="radio" id="css" name="fav_language" value="CSS">
+<label for="css">CSS</label><br>
+<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+<label for="javascript">JavaScript</label>
+		<br>
+<br>
+<label>What would you like to see improved? (Check all that apply)<label><br>
+		 <input type="checkbox" id="Front-end Projects" name="scales" value="value" >
+      <label for="Front-end Projects">Front-end Projects</label>
+			<br>
+			<input type="checkbox" id="Back-end Projects" name="scales" value="value" >
+			<label for="Back-end Projects">Back-end Projects</label>
+			<br>
+			<input type="checkbox" id="Data Visualization" name="scales" value="value" >
+		<label for="Data Visualization">	Data Visualization</label><br><br>
+		<label>Any comments or suggestions?</label>
+		<textarea  rows="4" cols="50"></textarea>
+		<br><br>
+		<button id="submit" type="submit">Submit</button>
+
+		</form>
+
+
+	
+	</div>
+</center>
+
+</body>
+</html>
