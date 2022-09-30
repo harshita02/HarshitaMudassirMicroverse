@@ -13,3 +13,13 @@ background-image: url("https://user-images.githubusercontent.com/7816534/1928502
 {
 	color:  rgb(7, 7, 7);font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+  
+  body{
+    font-weight: bold;
+    
+  }
+}
